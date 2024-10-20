@@ -11,7 +11,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/api/carreras"
+				"url": "http://localhost:3000/api/productos"
 			},
 			"response": []
 		},
@@ -22,14 +22,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nombre\": \"Nutricion\",\r\n    \"estado\":\"A\"\r\n  }",
+					"raw": "{\r\n    \"nombre\": \"Nutricion\",\r\n    \"precio\": \"199\",\r\n    \"cantidad\": \"90\"\r\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://localhost:3000/api/alums"
+				"url": "http://localhost:3000/api/productos"
 			},
 			"response": []
 		},
@@ -40,14 +40,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"nombre\": \"Nutricion\",\r\n        \"estado\": \"I\"\r\n    }",
+					"raw": "{\r\n        \"idproducto\": 1,\r\n        \"nombre\": \"IPhone\",\r\n        \"precio\": \"199\",\r\n        \"cantidad\": \"90\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://localhost:3000/api/carreras/3"
+				"url": "http://localhost:3000/api/productos/1"
 			},
 			"response": []
 		},
@@ -56,7 +56,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "http://localhost:3000/api/carreras/4"
+				"url": "http://localhost:3000/api/productos/1"
 			},
 			"response": []
 		},
@@ -65,7 +65,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/api/carreras/3"
+				"url": "http://localhost:3000/api/productos/2"
 			},
 			"response": []
 		}
