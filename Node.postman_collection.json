@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "694a7b48-0233-4b20-a778-f3c77fe868e7",
+		"name": "Node",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37756871"
+	},
+	"item": [
+		{
+			"name": "Listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/carreras"
+			},
+			"response": []
+		},
+		{
+			"name": "Crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Nutricion\",\r\n    \"estado\":\"A\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/alums"
+			},
+			"response": []
+		},
+		{
+			"name": "Editar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nombre\": \"Nutricion\",\r\n        \"estado\": \"I\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/carreras/3"
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/api/carreras/4"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/carreras/3"
+			},
+			"response": []
+		}
+	]
+}
